@@ -438,7 +438,7 @@ export default function HomePage() {
           }}
         />
         <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(11,12,10,0.82),rgba(11,12,10,0.52)_48%,rgba(11,12,10,0.18)),linear-gradient(0deg,rgba(11,12,10,0.46),transparent_50%)]" />
-        <div className="relative mx-auto flex min-h-[650px] max-w-6xl flex-col justify-end px-5 pb-28">
+        <div className="relative mx-auto flex min-h-162.5 max-w-6xl flex-col justify-end px-5 pb-28">
           <p className="mb-4 text-xs font-bold uppercase tracking-[0.24em] text-[#d9d2c3]">
             Harbor homes | thoughtful moves | est. 2011
           </p>
@@ -672,7 +672,7 @@ export default function HomePage() {
       <section id="studio" className="bg-[#11110f] py-20 text-white">
         <div className="mx-auto grid max-w-6xl gap-10 px-5 lg:grid-cols-[1.1fr_1fr] lg:items-center">
           <div
-            className="min-h-[360px] rounded-3xl bg-cover bg-center"
+            className="min-h-90 rounded-3xl bg-cover bg-center"
             style={{
               backgroundImage:
                 "url('https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80')",
@@ -866,7 +866,7 @@ export default function HomePage() {
 
       {selectedListing && (
         <div
-          className="fixed inset-0 z-[80] grid place-items-center bg-black/55 px-4 py-8 backdrop-blur-sm"
+          className="fixed inset-0 z-80 grid place-items-center bg-black/55 px-4 py-8 backdrop-blur-sm"
           role="dialog"
           aria-modal="true"
           aria-labelledby="listing-dialog-title"
@@ -878,7 +878,7 @@ export default function HomePage() {
           >
             <div className="grid max-h-[90vh] overflow-y-auto lg:grid-cols-[1.08fr_0.92fr]">
               <div
-                className="min-h-[320px] bg-cover bg-center lg:min-h-[620px]"
+                className="min-h-80 bg-cover bg-center lg:min-h-155"
                 style={{ backgroundImage: `url('${selectedListing.image}')` }}
               />
               <div className="p-6 sm:p-8">
@@ -992,7 +992,7 @@ export default function HomePage() {
 
       {isWishlistOpen && (
         <div
-          className="fixed inset-0 z-[70] bg-black/45 backdrop-blur-sm"
+          className="fixed inset-0 z-70 bg-black/45 backdrop-blur-sm"
           role="dialog"
           aria-modal="true"
           aria-labelledby="wishlist-title"
