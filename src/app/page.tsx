@@ -366,12 +366,10 @@ export default function HomePage() {
       <header className="fixed left-0 right-0 top-0 z-50 border-b border-[#e6ded1]/80 bg-[#fffaf1]/92 backdrop-blur-xl">
         <nav className="mx-auto flex h-16 max-w-6xl items-center justify-between px-5">
           <a href="#" className="flex items-center gap-3" aria-label="North and Nest home">
-            <span className="grid h-8 w-8 place-items-center rounded-lg bg-[#e7eadf] font-serif text-lg font-bold text-[#31594c]">
-              N
+            <span className="grid h-8 place-items-center rounded-lg font-serif text-2xl font-bold text-[#31594c]">
+              Demo Site
             </span>
-            <span className="font-editorial text-xl font-bold">
-              North & Nest
-            </span>
+    
           </a>
           <div className="hidden items-center gap-8 text-sm font-medium text-[#6d6458] md:flex">
             <a href="#homes" className="hover:text-[#31594c]">
@@ -429,7 +427,7 @@ export default function HomePage() {
         </nav>
       </header>
 
-      <section className="relative min-h-[760px] overflow-visible pt-16 text-white">
+      <section className="relative min-h-190 overflow-visible pt-16 text-white">
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
